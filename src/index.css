@@ -1,0 +1,80 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+html, body{
+  font-family: "Poppins", sans-serif !important;
+}
+:root {
+  --bs-primary-rgb: 244,140,6;
+  --primary-rgb-light: 255, 242, 225;
+  --primary-rgb-dark: 200, 140, 6;
+  --bs-secondary-rgb: 47,50,125;
+  --bs-tertiary-rgb: 101,218,255;
+  
+}
+
+.text-tertiary {
+  color: rgb(var(--bs-tertiary-rgb))
+}
+
+.bg-primary-light{
+  background-color: rgb(var(--primary-rgb-light));
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: rgb(var(--bs-primary-rgb));
+  --bs-btn-border-color: rgb(var(--bs-primary-rgb));
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgb(var(--primary-rgb-dark));
+  --bs-btn-hover-border-color:rgb(var(--primary-rgb-dark));
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: rgb(var(--bs-tertiary-rgb));
+  --bs-btn-active-border-color: rgb(var(--bs-tertiary-rgb));
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+
+@media (max-width: 991.98px){
+  .navbar-collapse.show, .navbar-collapse.collapsing {
+    background-color: white;
+    border: 1px solid rgb(var(--bs-primary-rgb));
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    flex-basis: 200px;
+    flex-grow: 0;
+    z-index: 3;
+  }
+}
+
+@media (min-width: 991.98px){
+  .navbar-brand img{
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+.navbar-toggler{
+  box-shadow: none !important;
+  padding: 3px 3px !important;
+  border-width: 2px !important;
+  border-color: transparent;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-toggler-icon{
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+
+.nav-link{
+  font-size: 12px;
+}

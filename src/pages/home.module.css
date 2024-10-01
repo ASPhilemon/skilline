@@ -1,0 +1,49 @@
+
+
+.navbar-toggler-on{
+  border-color: rgb(var(--bs-primary-rgb));
+  border-color: rgba(0, 0, 0, 0.6)
+}
+
+.navbar-toggler-off{
+  border-color: transparent !important;
+}
+
+.account-btns button{
+  width: 70px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.hero {
+  width: 100%;
+  background-color: rgb(var(--primary-rgb-light));
+  clip-path: ellipse(100% 100% at 50% 0%);
+  /* animation: cover-animation 1s ease-in-out forwards; */
+  overflow-x: hidden;
+}
+
+.hero-img{
+  animation: hero-animation 1s ease-in-out forwards;
+}
+
+@keyframes hero-animation {
+  from{
+    transform: translateX(200px);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+
+.companies{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 15px;
+}
+.companies img{
+  width: 70px;
+}
