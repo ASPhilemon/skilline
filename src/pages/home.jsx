@@ -76,12 +76,13 @@ function Hero(){
     <section className={`px-3 pt-4 pt-lg-0 px-md-5 ${styles["hero"]}`}>
       <Row xs={1} md={2} className="align-items-center" >
         <Col className="text-center text-md-start">
+
           <h1 style={{fontSize: "25px"}} className="display-6 mb-3 fw-bold" >
             <span className="text-primary">Studing</span> 
             <span className="text-secondary"> Online <br/>is now much easier</span>
           </h1>
           <p style={{fontSize: "16px"}} className="fw-light lead mb-2 mb-lg-4 px-3 px-md-0">Skilline is an interesting platform that will teach you in more an interactive way</p>
-          <Button className="rounded-pill" >Join for free</Button>
+          <Button className="rounded-pill shadow-lg" >Join for free</Button>
           <Button
             className="rounded-circle ms-3"
             variant="light"
