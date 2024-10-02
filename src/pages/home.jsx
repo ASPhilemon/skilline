@@ -59,11 +59,11 @@ function NavBar() {
         <div className="w-100 d-lg-none"></div>
 
         <Navbar.Collapse id="responsive-navbar-nav" className="flex-grow-0 ms-lg-auto me-lg-5">
-          <Nav className="">
-            <Nav.Link className="mb-2"  href="#home">Home</Nav.Link>
-            <Nav.Link className="mb-2"  href="#careers">Careers</Nav.Link>
-            <Nav.Link className="mb-2"  href="#blog">Blog</Nav.Link>
-            <Nav.Link   href="#about-us">About Us</Nav.Link>
+          <Nav defaultActiveKey={"home"} className="">
+            <Nav.Link eventKey={"home"} className="mb-2"  href="#home">Home</Nav.Link>
+            <Nav.Link eventKey={"careers"} className="mb-2"  href="#careers">Careers</Nav.Link>
+            <Nav.Link eventKey={"blog"} className="mb-2"  href="#blog">Blog</Nav.Link>
+            <Nav.Link eventKey={"about"}   href="#about-us">About Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -79,5 +79,11 @@ html, body{
 
 .nav-link{
   font-size: 14px;
+  color: rgb(var(--bs-secondary-rgb))
 
+}
+
+.nav-link.active{
+  color: rgb(var(--bs-primary-rgb)) !important;
+  font-weight: bold;
 }
