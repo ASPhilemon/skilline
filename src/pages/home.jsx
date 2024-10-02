@@ -43,7 +43,7 @@ function NavBar() {
           ref={togglerRef}
           className={`${expanded ? styles["navbar-toggler-on"] : styles["navbar-toggler-off"]}`}
           aria-controls="responsive-navbar-nav"
-          children = { expanded && <X size={20} />}
+          children = { expanded && <X size={30} />}
         />
         <Navbar.Brand
           className= {`ms-2 ms-md-3 position-relative}`}
