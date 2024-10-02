@@ -150,4 +150,3 @@ function Companies(){
     </section>
   )
 }
-
