@@ -96,7 +96,7 @@ html, body{
 
 @keyframes menu-icon {
   from{
-    transform: rotateZ(25deg);
+    transform: rotateZ(15deg);
   }
   to{
     transform: rotateZ(0deg);
@@ -105,7 +105,7 @@ html, body{
 
 @keyframes close-menu-icon {
   from{
-    transform: rotateZ(-25deg);
+    transform: rotateZ(-15deg);
   }
   to{
     transform: rotateZ(0deg);
