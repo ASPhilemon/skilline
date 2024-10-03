@@ -112,6 +112,7 @@ html, body{
   }
 }
 
-.collapse, .collapsing{
+.collapsing{
   transition-timing-function: linear !important;
+  transition-duration: .2s;
 }
