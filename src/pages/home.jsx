@@ -49,7 +49,7 @@ function NavBar() {
           className= {`ms-2 ms-md-3 position-relative}`}
           href="#home"
         >
-          <img src="/logo.svg" width={85}   alt="logo" />
+          <img src="/logo1.svg" width={85}   alt="logo" />
         </Navbar.Brand>
         
         <div className={`ms-auto ms-lg-0 order-lg-1 ${styles["account-btns"]}`}>
