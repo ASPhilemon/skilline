@@ -111,3 +111,7 @@ html, body{
     transform: rotateZ(0deg);
   }
 }
+
+.collapse, .collapsing{
+  transition-timing-function: linear !important;
+}
