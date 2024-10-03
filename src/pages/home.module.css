@@ -2,7 +2,7 @@
 
 .navbar-toggler-on{
   border-color: rgb(var(--bs-primary-rgb));
-  border-color: rgba(0, 0, 0, 0.6)
+  border-color: rgb(var(--bs-primary-rgb))
 }
 
 .navbar-toggler-off{

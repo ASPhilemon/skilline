@@ -72,14 +72,18 @@ html, body{
   align-items: center;
   width: 40px;
   height: 40px;
+  
 }
 
 .navbar-toggler-icon{
   width: 30px;
   height: 30px;
   margin: 0;
+  animation: menu-icon .1s linear forwards;
 }
-
+.menu-close-icon{
+  animation: close-menu-icon .1s linear forwards;
+}
 .nav-link{
   font-size: 15px;
   color: rgb(var(--bs-secondary-rgb))
@@ -88,4 +92,22 @@ html, body{
 .nav-link.active{
   color: rgb(var(--bs-primary-rgb)) !important;
   font-weight: bold;
+}
+
+@keyframes menu-icon {
+  from{
+    transform: rotateZ(20deg);
+  }
+  to{
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes close-menu-icon {
+  from{
+    transform: rotateZ(-20deg);
+  }
+  to{
+    transform: rotateZ(0deg);
+  }
 }
