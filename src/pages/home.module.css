@@ -1,11 +1,14 @@
 
 
 .navbar-toggler-on{
-  border-color: rgb(var(--bs-tertiary-rgb))
+  border-color: rgb(1, 177, 177);
+  background-color: rgb(1, 177, 177);
+  background-color: rgb(var(--bs-tertiary-rgb));
 }
 
 .navbar-toggler-off{
   border-color: transparent !important;
+
 }
 
 .account-btns button{

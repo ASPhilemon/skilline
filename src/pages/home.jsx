@@ -92,7 +92,7 @@ function Hero(){
           </Button> <span style={{fontSize: "12px"}} className="text-secondary" >Watch how it works</span>
         </Col>
         <Col className="text-center mt-4 mt-lg-0">
-          <img className={`${styles["hero-img"]}`} width={300} height={300} style = {{maxWidth: "100%"}} src="/hero1.png" alt="a girl holding books" />
+          <img className={`${styles["hero-img"]}`} width={350} height={400} style = {{maxWidth: "100%"}} src="/hero2.png" alt="a girl holding books" />
         </Col>
       </Row>
     </section>
