@@ -36,8 +36,8 @@
   0% {
     transform: translate(500px, 0);
   }
-  60% {
-    transform: translate(-15px, 0);
+  80% {
+    transform: translate(-5px, 0);
   }
   100% {
     transform: translate(0, 0);
