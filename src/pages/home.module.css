@@ -29,7 +29,7 @@
 }
 
 .hero-img-animation{
-  animation: hero-animation 1s ease-in-out forwards;
+  animation: hero-animation 1.5s ease-in-out forwards;
 }
 
 @keyframes hero-animation {
