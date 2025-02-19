@@ -71,7 +71,7 @@ function NavBar() {
   );
 }
 
-function Hero(){
+export function Hero(){
   return(
     <section className={`px-3 pt-4 pt-lg-0 px-md-5 ${styles["hero"]}`}>
       <Row xs={1} md={2} className="align-items-center" >
@@ -152,4 +152,19 @@ function Companies(){
   )
 }
 
+
+function HeroImage(){
+  const [loaded, setLoaded] = useState(false)
+
+  return(
+    <img
+      className={loaded && `${styles["hero-img"]}`}
+      width={350} height = {400}
+      style = {{maxWidth: "100%"}}
+      src="/hero2.png"
+      alt="a girl holding books"
+      onLoad = {()=>setLoaded(true)}
+    />
+  )
+}
 
