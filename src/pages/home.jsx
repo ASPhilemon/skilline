@@ -92,7 +92,7 @@ export function Hero(){
           </Button> <span style={{fontSize: "12px"}} className="text-secondary" >Watch how it works</span>
         </Col>
         <Col className="text-center mt-4 mt-lg-0">
-          <img className={`${styles["hero-img"]}`} width={350} height={400} style = {{maxWidth: "100%"}} src="/hero2.png" alt="a girl holding books" />
+        <HeroImage/>
         </Col>
       </Row>
     </section>
@@ -155,10 +155,13 @@ function Companies(){
 
 function HeroImage(){
   const [loaded, setLoaded] = useState(false)
+  const baseClass = styles["hero-img"]
+
+  console.log("loaded", loaded)
 
   return(
     <img
-      className={loaded && `${styles["hero-img"]}`}
+    className = { loaded? baseClass + " " +styles["hero-img-animation"]: baseClass }
       width={350} height = {400}
       style = {{maxWidth: "100%"}}
       src="/hero2.png"

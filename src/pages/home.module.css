@@ -25,6 +25,10 @@
 }
 
 .hero-img{
+  transform: translateX(200px);
+}
+
+.hero-img-animation{
   animation: hero-animation 1s ease-in-out forwards;
 }
 
