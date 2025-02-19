@@ -100,14 +100,14 @@ export function Hero(){
 }
 
 function Companies(){
-  const [count, setCount] = useState(1000)
+  const [count, setCount] = useState(5000)
   const [inView, setInView] = useState(false)
   const countRef = useRef(null)
 
   useEffect(()=> {
     let timeoutId
     function animateCount(){
-      const step = 20;
+      const step = 5000;
       if (count + step <= 5000) setCount(count+step); else setCount(5000)
     }
     if (inView){
