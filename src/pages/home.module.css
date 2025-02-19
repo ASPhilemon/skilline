@@ -33,12 +33,17 @@
 }
 
 @keyframes hero-animation {
-  from{
+  0% {
     transform: translateX(500px);
   }
-  to{
+  95% {
+    transform: translateX(-30px);
+  }
+
+  100% {
     transform: translateX(0);
   }
+
 }
 
 .companies{
