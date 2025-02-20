@@ -1,9 +1,8 @@
 
 
 .navbar-toggler-on{
-  border-color: rgb(1, 177, 177);
-  background-color: rgb(1, 177, 177);
-  background-color: rgb(var(--bs-tertiary-rgb));
+  /* border-color: rgba(0, 0,0, 0.2); */
+  background-color: rgba(0, 0,0, 0.2);
 }
 
 .navbar-toggler-off{
@@ -54,4 +53,8 @@
 }
 .companies img{
   width: 70px;
+}
+
+:root{
+  --bs-link-hover-color-rgb : 255, 255, 255;
 }

@@ -77,19 +77,13 @@ export function Hero(){
       <Row xs={1} md={2} className="align-items-center" >
         <Col className="text-center text-md-start">
 
-          <h1 style={{fontSize: "25px"}} className="display-6 mb-3 fw-bold" >
+          <h1 className="display-6 mb-3 fw-bold" >
             <span className="text-primary">Studing</span> 
             <span className="text-secondary"> Online <br/>is now much easier</span>
           </h1>
-          <p style={{fontSize: "16px"}} className="fw-light lead mb-2 mb-lg-4 px-3 px-md-0">Skilline is an interesting platform that will teach you in more an interactive way</p>
-          <Button className="rounded-pill shadow-lg" >Join for free</Button>
-          <Button
-            className="rounded-circle ms-3"
-            variant="light"
-            style={{width: 40, height: 40}}
-          >
-            <img className="me-2" width={15} height={15} src="/play.svg" alt="" />
-          </Button> <span style={{fontSize: "12px"}} className="text-secondary" >Watch how it works</span>
+          <p style={{fontSize: "16px"}} className="fw-light lead mb-5 mb-lg-5 px-3 px-md-0">Skilline is an interesting platform that will teach you in more an interactive way</p>
+          <Button href="#join" as="a" className="rounded-pill mb-3 shadow-lg" >Join for free</Button>
+
         </Col>
         <Col className="text-center mt-4 mt-lg-0">
         <HeroImage/>
