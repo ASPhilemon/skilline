@@ -76,14 +76,12 @@ export function Hero(){
     <section className={`px-3 pt-4 pt-lg-0 px-md-5 ${styles["hero"]}`}>
       <Row xs={1} md={2} className="align-items-center" >
         <Col className="text-center text-md-start">
-
           <h1 className="display-6 mb-3 fw-bold" >
             <span className="text-primary">Studing</span> 
             <span className="text-secondary"> Online <br/>is now much easier</span>
           </h1>
-          <p style={{fontSize: "16px"}} className="fw-light lead mb-5 mb-lg-5 px-3 px-md-0">Skilline is an interesting platform that will teach you in more an interactive way</p>
-          <Button href="#join" as="a" className="rounded-pill mb-3 shadow-lg" >Join for free</Button>
-
+          <p style={{fontSize: "16px"}} className="fw-light lead mb-5 mb-lg-5 px-3 px-md-0">Skilline is an engaging platform that enhances learning through interactive and immersive experiences.</p>
+          <Button href="#join" as="a" className="rounded-pill mb-3 shadow-lg" >Start Learning</Button>
         </Col>
         <Col className="text-center mt-4 mt-lg-0">
         <HeroImage/>
@@ -145,7 +143,6 @@ function Companies(){
     </section>
   )
 }
-
 
 function HeroImage(){
   const [loaded, setLoaded] = useState(false)
